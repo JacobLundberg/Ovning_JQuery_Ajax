@@ -13,10 +13,10 @@ $(document).ready(function () {
     })
         .done(function (json) {
             console.log(json.length);
-            pListan.append("<thead><tr><th>Name</th><th>Url</th></tr></thead>");
+            pListan.append("<thead><tr><th>Name</th><th>Created</th><th>Url</th></tr></thead>");
             pListan.append("<tbody></tbody>");
             for (var i = 0; i < json.length; i++) {
-                pListan.append("<tr><td>" + json[i].name + "</td><td>" + json[i].url + "</td></tr>");
+                pListan.append("<tr><td>" + json[i].name + "</td><td>" + json[i].created_at + "</td><td><a href=\"" + json[i].url + "\" >" + json[i].url+"</a></td></tr>");
             }
         })
         .fail(function () {
