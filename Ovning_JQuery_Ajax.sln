@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ovning_JQuery_Ajax", "Ovning_JQuery_Ajax\Ovning_JQuery_Ajax.csproj", "{6AC8CA75-7895-49DB-AA8C-859E2957B8D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AC8CA75-7895-49DB-AA8C-859E2957B8D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AC8CA75-7895-49DB-AA8C-859E2957B8D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AC8CA75-7895-49DB-AA8C-859E2957B8D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AC8CA75-7895-49DB-AA8C-859E2957B8D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1F56200-CB9D-49D8-BB79-F0575477BEA3}
+	EndGlobalSection
+EndGlobal
